@@ -1,8 +1,7 @@
 import validators
 import services
 import os
-from dotenv import load_dotenv 
-import json
+from dotenv import load_dotenv
 
 load_dotenv()  
 api_key = os.getenv("VT_API_KEY")
